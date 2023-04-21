@@ -22,9 +22,12 @@ public class writedropdoenvalue {
 			String value = webElement.getText();
 			count++;
 			System.out.print(count + " " + value + " ");
-
+			
 		
 		}
+	
+
+		System.out.println(" ");
 		driver.findElement(By.xpath("//li[@id='menu-item-3174']/a/span/span")).click();
 		List<WebElement> list1=driver.findElements(By.xpath("//ul[@class='sub-menu clicked']/li"));
 		int count2=0;
